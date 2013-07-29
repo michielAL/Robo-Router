@@ -1,0 +1,23 @@
+
+"INSERT INTO ""route"" VALUES('say hello'",'echo hello world','','test/debug');
+"INSERT INTO ""route"" VALUES('say bye'",'echo bye bye','','test/debug');
+"INSERT INTO ""route"" VALUES('test'",' echo TEST','','2013-05-08 10:24:39');
+"INSERT INTO ""route"" VALUES('51_9.135.101.67.33.0.0.0'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','close meatingroom door');
+"INSERT INTO ""route"" VALUES('34_9.135.101.67.33.0.0.0'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','open meatingroom door');
+"INSERT INTO ""route"" VALUES('17_9.135.101.67.33.0.0.0'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 17 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 17 &','temp open meatingroom door');
+"INSERT INTO ""route"" VALUES('74c2a'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','motion detector A ON');
+"INSERT INTO ""route"" VALUES('74c28'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','motion detector A OFF');
+"INSERT INTO ""route"" VALUES('63d52'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','motion detector B ON');
+"INSERT INTO ""route"" VALUES('63d50'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','motion detector B OFF');
+"INSERT INTO ""route"" VALUES('8030c'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 17 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 17 &','remote A 1 ON');
+"INSERT INTO ""route"" VALUES('76946'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 17 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 17 &','remote B 1 ON');
+"INSERT INTO ""route"" VALUES('6138e'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 17 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 17 &','remote small 1 ON');
+"INSERT INTO ""route"" VALUES('8030a'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','remote A 1 OFF');
+"INSERT INTO ""route"" VALUES('76944'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','remote B 1 OFF');
+"INSERT INTO ""route"" VALUES('6138c'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 34 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 34 &','remote small 1 OFF');
+"INSERT INTO ""route"" VALUES('80450'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','remote A 2 ON');
+"INSERT INTO ""route"" VALUES('76a8a'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','remote B 2 ON');
+"INSERT INTO ""route"" VALUES('614d2'",'sudo /home/pi/ardushield/rftransmit.o -a 9.135.101.67.33.0.0.0 -c 51 &','node /home/pi/nodefiles/SendSense.js -id 322838 -d 51 &','remote small 2 ON');
+"INSERT INTO ""route"" VALUES('8044e'",' ','','remote A 2 OFF');
+"INSERT INTO ""route"" VALUES('76a88'",' ','','remote B 2 OFF');
+"INSERT INTO ""route"" VALUES('614d0'",' ','','remote small 2 OFF');
