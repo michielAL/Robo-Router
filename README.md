@@ -10,4 +10,12 @@ and add RoboRouter_bootup to the bootup scripts useing "sudo update-rc.d RoboRou
 replace /boot/cmdline.txt with cmdline.txt
 
 
+instal packages node, hostapd, webmin and iptables 
+sudo apt-get update
+sudo apt-get install <package> 
 
+node = node.js webserver
+hostapd = wifi network
+iptables = NAT(Network addres translation) and firewall
+webmin = tool for configuring iptables
+sqlite3 = database

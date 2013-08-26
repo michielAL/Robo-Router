@@ -47,7 +47,7 @@ fs.exists(repository, function(exists) {
 					console.log(row.command_sense);
 					executecommand(row.command_sense);
 				}
-				db.close();
+//23-8-13				db.close();
 				
 			
 				
@@ -57,7 +57,7 @@ fs.exists(repository, function(exists) {
 					insert(db);
 				}
 	  		});//db.each 
-			//db.close();
+			db.close(); // 23-8-13
 		});
 	}
 	else {
@@ -75,8 +75,8 @@ function insert(db)//command =terminalcommand
 	//var ret =db.run("INSERT INTO route VALUES('"+INPUT+"','','', (SELECT datetime('now','localtime')));");
 	//var ret =db.run("UPDATE route SET description= (SELECT datetime('now','localtime')) WHERE command_in = '"+INPUT+"';");
 console.log("updating DB ");
-	var ret =db.run("DELETE FROM route WHERE command_in='"+INPUT+"' AND command_out =''AND command_sense ='';");
- 	ret =db.run("INSERT INTO route VALUES ('"+INPUT+"','','',(SELECT datetime('now','localtime')));");
+	var ret =db.run("DELETE FROM input_device WHERE command='"+INPUT+"' AND name ='auto-insert';");
+ 	ret =db.run("INSERT INTO input_device VALUES ('auto-insert','"+INPUT+"',(SELECT datetime('now','localtime')));");
 	console.log(ret);
 db.close()
 }
